@@ -1,0 +1,61 @@
+a{
+    margin: 30px;
+}
+#ad{
+    margin-top: 100px;
+}
+#img2{
+width: 150px;
+margin-top: 65px;
+}
+#move{
+    color: rgba(8, 52, 248, 0.774);
+
+    animation-name: move1;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+position: absolute;
+animation-name: move1;
+
+}
+@keyframes move1 {
+    0% {
+        transform: translateX(100%); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+
+}
+
+#img2:hover{
+    width: 200px;
+    }
+#bg{
+    margin-top: 20px;
+     background-color: rgba(198, 253, 0, 0.452);
+    height: 700px;
+    /* background-image: url("../image/homebg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed; */
+    
+}
+
+#gh{
+    color: ghostwhite;
+animation: gh1;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes gh1 {
+    
+         from{
+    background-color: aqua;
+        }
+        to{
+    background-color: red;
+        }
+}
+
+

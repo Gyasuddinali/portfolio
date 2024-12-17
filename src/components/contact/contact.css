@@ -4,26 +4,29 @@ a{
 #ad{
     margin-top: 100px;
 }
+
+
 #img2{
-width: 150px;
-margin-top: 65px;
-}
+    width: 150px;
+    margin-top: 65px;
+    }
+
 #move{
-    color: rgba(8, 52, 248, 0.774);
+    
 
     animation-name: move1;
 animation-iteration-count: infinite;
 animation-duration: 10s;
-position: absolute;
+position:relative;
 animation-name: move1;
 
 }
 @keyframes move1 {
-    0% {
-        transform: translateX(100%); 
+    100% {
+        transform: translateX(40%); 
     }
     100% {
-        transform: translateX(-100%); 
+        transform: translateX(10%); 
     }
 
 }
@@ -32,17 +35,19 @@ animation-name: move1;
     width: 200px;
     }
 #bg{
-    margin-top: 20px;
-     background-color: rgba(198, 253, 0, 0.452);
-    height: 700px;
-    /* background-image: url("../image/homebg.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:fixed; */
+ 
+    
+        text-align: center;
+        background-attachment: fixed;
+      color: whitesmoke;
+        background-image: url("../image/bg-pattern.jpg");
+      background-size:cover;
+    
     
 }
 
-#gh{
+
+ #gh{
     color: ghostwhite;
 animation: gh1;
 animation-duration: 2s;
@@ -55,7 +60,59 @@ animation-iteration-count: infinite;
         }
         to{
     background-color: red;
-        }
+        } 
 }
 
 
+
+
+#i1{
+    background-color: aliceblue;
+    animation-name: i1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#i2{
+    background-color: aliceblue;
+    animation-name: i1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes i1{
+   from {
+color: aqua;
+    }
+   to {
+color: crimson;
+    }
+}
+
+
+
+#frm{
+
+    text-align: center;
+    background-attachment: fixed;
+  color: white;
+    background-image: url("../image/bg-pattern.jpg");
+  background-size:cover;
+}
+input{
+    background-color:white;
+
+text-align: center;   
+
+}
+textarea{
+    background-color:white;
+
+text-align: center;   
+
+}
+button{
+    color: rgb(247, 247, 247);
+    background-color: rgba(3, 190, 223, 0.438);
+    font-size: larger;
+}

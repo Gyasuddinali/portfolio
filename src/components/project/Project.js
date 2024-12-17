@@ -23,7 +23,7 @@ export default function Project() {
 </div> */}
 
 
-<h1 className='text-center'>1</h1>
+<h1 id='i1' className='text-center'>1</h1>
 <div className="card bg-primary">
   <div className="card-body">
     <h1 className="card-title text-white">Project title:-Empolyee Mngement system</h1>
@@ -41,8 +41,8 @@ export default function Project() {
 
 
 
-<h1 className='text-center'>2</h1>
-<div className="card bg-primary">
+<h1 id='i2' className='text-center'>2</h1>
+<div className="card bg-info">
   <div className="card-body">
     <h1 className="card-title text-white">Project title:-Hotel Mngement system</h1>
     <h3 className='text-white'>Technology Used</h3>

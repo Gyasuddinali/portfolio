@@ -4,14 +4,16 @@ a{
 #ad{
     margin-top: 100px;
 }
-
+body{
+    background-color:wheat;
+}
 
 #img2{
     width: 150px;
     margin-top: 65px;
     }
 
-#move{
+/* #move{
     
 
     animation-name: move1;
@@ -23,13 +25,13 @@ animation-name: move1;
 }
 @keyframes move1 {
     100% {
-        transform: translateX(40%); 
+        transform: translatex(50%); 
     }
     100% {
         transform: translateX(10%); 
     }
 
-}
+} */
 
 #img2:hover{
     width: 200px;

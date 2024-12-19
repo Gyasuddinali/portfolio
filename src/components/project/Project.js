@@ -7,7 +7,7 @@ export default function Project() {
   return (
     <div>
 <div>
-    <h1 id='pm'>PROJECT MADE</h1>
+    <h1 className='bg-info text-white text-center'  id='pm'>PROJECT MADE</h1>
 
 
 </div>

@@ -62,7 +62,7 @@ export default function Contact() {
   return (
     <div>
       <div>
-        <h1 id="gh" className="container text-center py-4">MY NAME IS GYASUDDIN ALI</h1>
+        {/* <h1 id="gh" className="container-fluid text-center py-4">MY NAME IS GYASUDDIN ALI</h1> */}
       </div>
 
       <div id="bg" className="container">
@@ -80,7 +80,8 @@ export default function Contact() {
 
           {/* Text and Contact Info */}
           <div className="col-12 col-md-8">
-            <h2 id="move" className="text-center">
+            <h2 id="move" className="text-center mt-5">
+            MY NAME IS GYASUDDIN ALI.
               I AM SOFTWARE DEVELOPER, MERN STACK DEVELOPER
             </h2>
 

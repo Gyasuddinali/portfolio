@@ -64,6 +64,7 @@ export default function Contact() {
       <div>
         {/* <h1 id="gh" className="container-fluid text-center py-4">MY NAME IS GYASUDDIN ALI</h1> */}
       </div>
+      <h1 className='bg-info text-white text-center'>WELCOME TO MY PORTFOLIO</h1>
 
       <div id="bg" className="container">
         <div className="row align-items-center">

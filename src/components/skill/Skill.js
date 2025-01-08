@@ -17,7 +17,7 @@ import springboot from '../image/spring.png';
 export default function Skill() {
   return (
     <div>
-      <h1 className="bg-info text-white text-center ">My Skills</h1>
+      <h1 className="bg-info text-white text-center mt-3">My Skills</h1>
       
       <div id='ptex' className="container-fluid">
         <div className="row justify-content-center">

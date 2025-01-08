@@ -53,14 +53,14 @@
 }
 
 /* About Text Style */
-.about-text {
+/* .about-text {
   height: auto;
   margin: 2rem;
   padding: 2rem;
   border-radius: 8px;
   background-color: #28a745;
   font-size: 1.2rem;
-}
+} */
 
 @media (max-width: 768px) {
   .about-text {

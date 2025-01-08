@@ -1,58 +1,5 @@
-// import gyasu from '../image/gyasu.pdf'
-// import image1 from '../image/img.jpg';
-// import React from 'react'
-// import '../contact/contact.css';
-// import { FaFacebook, FaGithub, FaInstagram, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 
-// export default function Home() {
-//   return (
-//     <div>
-
-      
-//      <div>  <h1 id='gh' className='container'>MY NAME IS GYASUDDIN ALI</h1>
-//      </div>
- 
-  
-    
-//     <div id='bg' className="container">
-      
-
-
-// <img id='img2' className='container-fluid  img-fluid rounded-circle float-sm-start float-md-start float-xl-start float-xxl-start' src={image1} alt="logo" />
-// <h2 id='move' className='text-center   '>I AM SOFTWARE DEVOLOPER,MERN STACK DEVOLOPER</h2>
-
-
-// {/* <div className='container float-sm-end float-md-end float-xl-end float-xxl-end'> */}
-// <p id='ad' className='container' ><FaWhatsapp></FaWhatsapp><FaPhone></FaPhone>9199245536</p>
-// <h5 className='text-center'>Email</h5><p className='text-center'>gyasuddinali0786@gmail.com</p>
-// <h5>Address</h5><pre className='text-bold'>Siwan,Bihar</pre>
-// {/* </div> */}
-// {/* <div id='link' className='float-sm-end float-md-end float-xl-end float-xxl-end'> */}
-// <a  href="https://www.facebook.com/gyasusrkian91992"><FaFacebook className='fs-1  '/></a>
-// <a  href='https://www.instagram.com/iam_gyasu/'><FaInstagram className='fs-1 ' /></a>
-// <a  href='https://github.com/Gyasuddinali'><FaGithub className='fs-1 '></FaGithub></a>
-// <a  href='https://x.com/iamgyasu'><FaTwitter className='fs-1 '/></a>
-// {/* </div> */}
-// <a className='btn btn-primary' href={gyasu}>View my resume</a>
-
-
-
-// </div>
-
-
-//     </div>
-//   )
-// }
-
-
-
-
-
-
-
-
-
-import gyasu from '../image/gyasu.pdf';
+import gyasu from '../image/gyasuddin.pdf';
 import image1 from '../image/img.jpg';
 import React from 'react';
 import '../contact/contact.css';
@@ -60,11 +7,11 @@ import { FaFacebook, FaGithub, FaInstagram, FaPhone, FaTwitter, FaWhatsapp } fro
 
 export default function Contact() {
   return (
-    <div>
+    <div id='ptex'>
       <div>
         {/* <h1 id="gh" className="container-fluid text-center py-4">MY NAME IS GYASUDDIN ALI</h1> */}
       </div>
-      <h1 className='bg-info text-white text-center'>WELCOME TO MY PORTFOLIO</h1>
+      <h1 className='mt-3 bg-info text-white text-center'>WELCOME TO MY PORTFOLIO</h1>
 
       <div id="bg" className="container">
         <div className="row align-items-center">

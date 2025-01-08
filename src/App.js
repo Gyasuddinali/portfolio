@@ -10,7 +10,12 @@ import Skill from "./components/skill/Skill";
 import Project from "./components/project/Project.js";
 import NavbarRoute from "./components/navbar/NavbarRoute.js";
 import Contactme from "./components/contact/Contactme.js";
+
 function App() {
+  
+
+
+ 
   return (
     <div className="App">
      

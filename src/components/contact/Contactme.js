@@ -43,7 +43,7 @@ console.log(name);
 
   return (
     <div id="frm">
-      <h1 className='bg-info text-white text-center'>Contact Me</h1>
+      <h1 className='mt-3 bg-info text-white text-center'>Contact Me</h1>
       <form className='container' onSubmit={buttonhnd}>
         <input type="text" placeholder="Your Name" required name='name' value={name.name} onChange={inpcng}/><br></br>
         <input type="email" placeholder="Your Email" required name='email' p value={name.email} onChange={inpcng}/><br></br>

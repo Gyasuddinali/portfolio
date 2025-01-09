@@ -9,7 +9,7 @@ export default function About() {
 
 
 <p  
-          className="pt-t fs-5 text-start text-lg text-warning text-justify">
+          className="pt-t fs-5 text-start text-lg text-white text-justify">
 {/* 
     My name is Gyauddin Ali.I belong from siwan Bihar.I have done Master in 
     Computer Applicaton from SRIT jabalpur.I had completed my Bachelor in 
@@ -24,10 +24,10 @@ export default function About() {
 
 Hi, I'm Gyauddin Ali, a fresher MCA postgraduate with a deep passion for Java development, MERN stack, and software development. I have a strong foundation in Java, C, C++, Spring Boot, JSP, Servlets, HTML, CSS, ReactJS, ExpressJS, NodeJS, MongoDB, and MySQL.
 </p>
-<p className='pt-t fs-5 text-start text-lg text-warning text-justify'>
+<p className='pt-t fs-5 text-start text-lg text-white text-justify'>
 I take pride in my ability to solve complex problems and am always eager to embrace new challenges that help me grow. Whether working independently or collaborating with a team, I am committed to delivering results that exceed expectations.
 </p>
-<p className='pt-t fs-5 text-start text-lg text-warning text-justify'>
+<p className='pt-t fs-5 text-start text-lg text-white text-justify'>
 Feel free to explore my work, and let's connect if you're looking for someone who can apply my programming and software development knowledge to solve real-world problems.
 </p>
 </div>

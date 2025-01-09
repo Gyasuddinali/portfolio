@@ -22,7 +22,7 @@ function App() {
       {/* <Header></Header> */}
 
 
-      <BrowserRouter basename="/portfolio">
+      <BrowserRouter>
       <NavbarRoute></NavbarRoute>
     
       <Routes>

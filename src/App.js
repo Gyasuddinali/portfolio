@@ -10,6 +10,7 @@ import Skill from "./components/skill/Skill";
 import Project from "./components/project/Project.js";
 import NavbarRoute from "./components/navbar/NavbarRoute.js";
 import Contactme from "./components/contact/Contactme.js";
+import AllPage from "./components/AllPage.js";
 
 function App() {
   
@@ -26,7 +27,8 @@ function App() {
       <NavbarRoute></NavbarRoute>
     
       <Routes>
-      <Route path='/' element={<Home></Home>}></Route>
+      {/* <Route path='/' element={<Home></Home>}></Route> */}
+      <Route path='/' element={<AllPage></AllPage>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         {/* <Route path='/' element={<Home></Home>}></Route> */}
         <Route path='/skill' element={<Skill></Skill>}></Route>

@@ -7,26 +7,17 @@ export default function Project() {
   return (
     <div>
 <div>
-    <h1 className='bg-info text-white text-center mt-3'  id='pm'>PROJECT</h1>
+    <h1 className='text-white text-center'  id='pm' style={{backgroundColor:'#8C1515'}}>PROJECT</h1>
 
 
 </div>
 
 
-{/* <div className="card mb-3 bg-info">
-  <img src={emp} class="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Project Title</h5>
-    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div> */}
-
 
 <h1 id='i1' className='text-center'>1</h1>
 <div className="card bg-primary">
   <div className="card-body">
-    <h1 className="card-title text-white ">Project title:-Empolyee Mngement system</h1>
+    <h1 className="card-title text-white ">Project title:-Employee Management system</h1>
     <h3 className='text-white'>Technology Used</h3>
     <h5 className='text-white'>ReactJS, NodeJS, Express,MongoDB, BootStrap, CSS</h5>
     <p className=" text-white card-text"> 
@@ -47,7 +38,7 @@ Technologies:
 <h1 id='i2' className='text-center'>2</h1>
 <div className="card bg-info">
   <div className="card-body">
-    <h1 className="card-title text-white">Project title:-Hotel Mngement system</h1>
+    <h1 className="card-title text-white">Project title:-Hotel Management system</h1>
     <h3 className='text-white'>Technology Used</h3>
     <h5 className='text-white'>Java, MySQL, Servlet,JSP,HTML,CSS,BootStrap</h5>
     <p className=" text-white card-text"> 

@@ -1,28 +1,28 @@
 // src/components/Header.js
 import React from 'react';
-
+import './header.css';
 const Header = () => {
   return (
-    <div>
+    <div >
    {/* "homepage": "https://Gyasuddinali.github.io/portfolio", */}
 
-      <nav class="navbar navbar-expand navbar-light bg-light">
-  <div class="container">
+      <nav className="navbar navbar-expand navbar-light bg-light">
+  <div  className="container ">
     
     {/* <div class="collapse navbar-collapse" id="navbarNav"> */}
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active"  href="/">Home</a>
+      <ul className="navbar-nav ">
+        <li className="nav-item">
+          <a className="nav-link active"  href="/">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/project">Project</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/project">Project</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/skill">Skill</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/skill">Skill</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/about">About</a>
         </li>
         
       </ul>

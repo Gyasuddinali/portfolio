@@ -17,14 +17,14 @@ import springboot from '../image/spring.png';
 export default function Skill() {
   return (
     <div>
-      <h1 className="bg-info text-white text-center mt-3">My Skills</h1>
+      <h1 className=" text-white text-center" style={{backgroundColor:'#8C1515'}}>My Skills</h1>
       
       <div id='ptex' className="container-fluid">
         <div className="row justify-content-center">
           
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={java} alt="Java" />
+              <img className="card-img-top" src={java} alt="Java" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">JAVA</h4>
               </div>
@@ -33,7 +33,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={servlet} alt="Servlet & JSP" />
+              <img className="card-img-top" src={servlet} alt="Servlet & JSP" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">SERVLET & JSP</h4>
               </div>
@@ -42,7 +42,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={css} alt="CSS" />
+              <img className="card-img-top" src={css} alt="CSS" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">CSS</h4>
               </div>
@@ -51,7 +51,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={javascript} alt="JavaScript" />
+              <img className="card-img-top" src={javascript} alt="JavaScript" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">JAVASCRIPT</h4>
               </div>
@@ -60,7 +60,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={html} alt="HTML" />
+              <img className="card-img-top" src={html} alt="HTML" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">HTML</h4>
               </div>
@@ -69,7 +69,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={cpp} alt="C++" />
+              <img className="card-img-top" src={cpp} alt="C++" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">C++</h4>
               </div>
@@ -78,7 +78,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={springboot} alt="Spring Boot" />
+              <img className="card-img-top" src={springboot} alt="Spring Boot" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">SPRING BOOT</h4>
               </div>
@@ -87,7 +87,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={c} alt="C Programming" />
+              <img className="card-img-top" src={c} alt="C Programming" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">C PROGRAMMING</h4>
               </div>
@@ -96,7 +96,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={mongo} alt="MongoDB" />
+              <img className="card-img-top" src={mongo} alt="MongoDB" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">MONGODB</h4>
               </div>
@@ -105,7 +105,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={nodejs} alt="NodeJS" />
+              <img className="card-img-top" src={nodejs} alt="NodeJS" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">NODEJS</h4>
               </div>
@@ -114,7 +114,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={exp} alt="ExpressJS" />
+              <img className="card-img-top" src={exp} alt="ExpressJS" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">EXPRESSJS</h4>
               </div>
@@ -123,7 +123,7 @@ export default function Skill() {
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">
-              <img className="card-img-top" src={react} alt="ReactJS" />
+              <img className="card-img-top" src={react} alt="ReactJS" style={{ height: '300px', objectFit: 'cover' }}/>
               <div className="card-body">
                 <h4 className="card-title text-center">REACTJS</h4>
               </div>

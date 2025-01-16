@@ -4,7 +4,7 @@ export default function About() {
  
   return (
     <div>
-<h1 className='mt-3 bg-info text-white'>About Me</h1>
+<h1 className='text-white' style={{backgroundColor:'#8C1515'}}>About Me</h1>
 <div id='ptex' className='text-center mt-5 container mx-auto bg-info'>
 
 

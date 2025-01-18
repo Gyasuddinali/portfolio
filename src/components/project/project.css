@@ -20,3 +20,15 @@ background-color: #f00909;
 background-color: green;
     }
 }
+
+#c1{
+
+    text-align: center;
+    background-attachment: fixed;
+  color: rgb(24, 16, 16);
+    /* background-image: url("../image/bg-pattern.jpg"); */
+    background-image: url("../image/bg3.jpg");
+    background-size: cover;
+
+
+}

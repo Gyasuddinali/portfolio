@@ -42,14 +42,16 @@ console.log(name);
 }
 
   return (
-    <div id="frm">
-      <h1 className='text-white text-center' style={{backgroundColor:'#8C1515'}}>Contact Me</h1>
-      <form className='container' onSubmit={buttonhnd}>
+    <div>
+      <h1 className='text-white text-center mt-5 ' style={{backgroundColor:'#8C1515'}}>Contact Me</h1>
+      <div id="frm" className="card container bg-dark mt-5 mb-5 pt-5 pb-5 ps-5 pe-5">
+      <form className='container ps-5 pe-5 card pt-5 pb-5 align-center ' onSubmit={buttonhnd}>
         <input type="text" placeholder="Your Name" required name='name' value={name.name} onChange={inpcng}/><br></br>
         <input type="email" placeholder="Your Email" required name='email' p value={name.email} onChange={inpcng}/><br></br>
         <textarea placeholder="Your Message" required name='message'  value={name.message} onChange={inpcng} ></textarea><br></br>
-        <button type="submit">Send</button>
+        <button className="btn bg-primary text-white" type="submit">Send</button>
       </form>
+      </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import gyasu from '../image/gyasuddin.pdf';
 import image1 from '../image/img.jpg';
 import React from 'react';
 import '../contact/contact.css';
-import { FaFacebook, FaGithub, FaInstagram, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook, FaGithub, FaHome, FaInstagram, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 export default function Contact() {
   return (
@@ -13,7 +13,7 @@ export default function Contact() {
       </div>
       <h1 className='text-white text-center' style={{backgroundColor:'#8C1515'}}>WELCOME TO MY PORTFOLIO</h1>
 
-      <div id="bg" className="container">
+      <div id="bg" className="card container shadow-dark mt-5 mb-5">
         <div className="row align-items-center">
           {/* Profile Image */}
           <div className="col-12 col-md-4 text-center mb-4">
@@ -28,20 +28,20 @@ export default function Contact() {
 
           {/* Text and Contact Info */}
           <div className="col-12 col-md-8">
-            <h2 id="move" className="text-center mt-5 ">
+            <h2 id="move" className="text-center mt-5 text-dark">
             MY NAME IS GYASUDDIN ALI.
-             I AM SOFTWARE DEVELOPER, MERN STACK DEVELOPER
+             I AM JAVA DEVELOPER, MERN STACK DEVELOPER
             </h2>
 
-            <p id="ad" className="d-flex align-items-center justify-content-center mb-3">
+            <p id="ad" className="d-flex align-items-center text-dark justify-content-center mb-3">
               <FaWhatsapp className="me-2" /> <FaPhone className="me-2" /> 9199245536
             </p>
 
-            <h5 className="text-center">Email</h5>
-            <p className="text-center">gyasuddinali0786@gmail.com</p>
+            <h5 className="text-center text-dark"><FaEnvelope></FaEnvelope>Email</h5>
+            <p className="text-center text-dark">gyasuddinali0786@gmail.com</p>
 
-            <h5>Address</h5>
-            <pre className="text-bold">Siwan, Bihar</pre>
+            <h5 className="text-dark"><FaHome></FaHome>Address</h5>
+            <pre className="text-bold text-dark">Siwan, Bihar</pre>
 
             <div className="text-center my-3">
               <a

@@ -13,13 +13,13 @@ import react from '../image/react.jpg';
 import java from '../image/java.jpg';
 import servlet from '../image/servlet.png';
 import springboot from '../image/spring.png';
-
+import '../skill/skill.css'
 export default function Skill() {
   return (
     <div>
       <h1 className=" text-white text-center" style={{backgroundColor:'#8C1515'}}>My Skills</h1>
       
-      <div id='ptex' className="container-fluid">
+      <div id='ptex' className="container card mt-5 mb-5">
         <div className="row justify-content-center">
           
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">

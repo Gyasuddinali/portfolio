@@ -4,7 +4,7 @@ body{
     text-align: center;
     background-attachment: fixed;
   color: white;
-    background-image: url("../image/bg-pattern.jpg");
+    background-image: url("../image/pexels-danielabsi-952670.jpg");
   background-size:cover;
 }
 
@@ -14,9 +14,7 @@ a{
 #ad{
     margin-top: 100px;
 }
-body{
-    background-color:wheat;
-}
+
 
 #img2{
     width: 150px;
@@ -52,7 +50,7 @@ animation-name: move1;
         text-align: center;
         background-attachment: fixed;
       color: whitesmoke;
-        background-image: url("../image/bg-pattern.jpg");
+        background-image: url("../image/bg3.jpg");
       background-size:cover;
     
     
@@ -108,7 +106,7 @@ color: crimson;
     text-align: center;
     background-attachment: fixed;
   color: white;
-    background-image: url("../image/bg-pattern.jpg");
+    background-image: url("../image/bg3.jpg");
   background-size:cover;
 }
 input{

@@ -1,6 +1,8 @@
 // src/components/Contact.js
 import React from 'react';
 import { useState } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contactme = () => {
 
   const [name,setName]=useState({
@@ -33,8 +35,11 @@ const buttonhnd=async(e1)=>{
     .then((res) => res.json())
     .then((data) => {
       
-        alert("we will contact you soon");
-      
+        //alert("we will contact  you soon");
+      toast.success("we will contct you very shortly! Have a good day",{
+
+        position:"top-center"
+      })
     })
 
   
@@ -52,6 +57,7 @@ console.log(name);
         <button className="btn bg-primary text-white" type="submit">Send</button>
       </form>
       </div>
+      <ToastContainer/>
     </div>
   );
 };

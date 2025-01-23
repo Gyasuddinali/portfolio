@@ -3,9 +3,20 @@ import gyasu from '../image/gyasuddin.pdf';
 import image1 from '../image/img.jpg';
 import React from 'react';
 import '../contact/contact.css';
-import { FaEnvelope, FaFacebook, FaGithub, FaHome, FaInstagram, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook,FaLinkedin, FaGithub, FaHome, FaInstagram, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 export default function Contact() {
+  const number = "+919199245536";
+  //const whatsappNumber = "+1234567890";
+  const message = "Hello!";
+
+  const redirectToWhatsApp = () => {
+    window.location.href = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
+  };
+
+  const CallingMe = () => {
+    window.location.href = `tel:${number}`;
+  };
   return (
     <div id='ptex'>
       <div>
@@ -33,13 +44,13 @@ export default function Contact() {
              I AM JAVA DEVELOPER, MERN STACK DEVELOPER
             </h2>
 
-            <p id="ad" className="d-flex align-items-center text-dark justify-content-center mb-3">
-              <FaWhatsapp className="me-2" /> <FaPhone className="me-2" /> 9199245536
+            <p onClick={redirectToWhatsApp} id="ad" className="d-flex align-items-center text-dark justify-content-center mb-3">
+             <p> <FaWhatsapp className="me-2" />whatsApp Now</p>
             </p>
-
+            <p onClick={CallingMe} className="align-items-center text-dark"><FaPhone className="me-2" />Call Me Now 9199245536</p>
             <h5 className="text-center text-dark"><FaEnvelope></FaEnvelope>Email</h5>
-            <p className="text-center text-dark">gyasuddinali0786@gmail.com</p>
-
+            <p className="text-center text-dark"> <a href="mailto:gyasuddinali0786@gmail.com" className="text-dark">gyasuddinali0786@gmail.com</a></p>
+           
             <h5 className="text-dark"><FaHome></FaHome>Address</h5>
             <pre className="text-bold text-dark">Siwan, Bihar</pre>
 
@@ -68,6 +79,7 @@ export default function Contact() {
               >
                 <FaTwitter />
               </a>
+              <a href="https://www.linkedin.com/in/gyasuddin-ali-243194258/" className="fs-2 mx-2"><FaLinkedin/> </a>
             </div>
 
             <div className="text-center">

@@ -9,14 +9,14 @@ export default function Project() {
   return (
     <div>
 <div >
-    <h1 className='text-white text-center' style={{backgroundColor:'#8C1515'}}>PROJECT</h1>
+    <h1 className='text-white text-center pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>PROJECT</h1>
 
 
 </div>
 
 
 
-<h1 id='i1' className='text-center container '>1</h1>
+<h1 id='i1' className='text-center container mt-5'>1</h1>
 <div id='c1' className="card container bg-primary">
   <div className="card-body">
     <h1 className="card-title text-dark ">Project title:-Employee Management system</h1>
@@ -37,7 +37,7 @@ Technologies:
 
 
 
-<h1 id='i2' className='text-center container'>2</h1>
+<h1 id='i2' className='text-center container mt-5'>2</h1>
 <div id='c1' className="card container bg-info">
   <div className="card-body">
     <h1 className="card-title text-dark">Project title:-Hotel Management system</h1>

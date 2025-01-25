@@ -48,8 +48,8 @@ console.log(name);
 
   return (
     <div>
-      <h1 className='text-white text-center mt-5 ' style={{backgroundColor:'#8C1515'}}>Contact Me</h1>
-      <div id="frm" className="card container bg-dark mt-5 mb-5 pt-5 pb-5 ps-5 pe-5">
+      <h1 className='text-white text-center pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>Contact Me</h1>
+      <div id="frm" className="card container mt-5 mb-5 pt-5 pb-5 ps-5 pe-5">
       <form className='container ps-5 pe-5 card pt-5 pb-5 align-center ' onSubmit={buttonhnd}>
         <input type="text" placeholder="Your Name" required name='name' value={name.name} onChange={inpcng}/><br></br>
         <input type="email" placeholder="Your Email" required name='email' p value={name.email} onChange={inpcng}/><br></br>

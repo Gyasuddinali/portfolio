@@ -17,10 +17,10 @@ import '../skill/skill.css'
 export default function Skill() {
   return (
     <div>
-      <h1 className=" text-white text-center" style={{backgroundColor:'#8C1515'}}>My Skills</h1>
+      <h1 className=" text-white text-center pt-2" style={{backgroundColor:'#8C1515',height:'60px'}}>My Skills</h1>
       
       <div id='ptex' className="container card mt-5 mb-5">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center ms-5 me-5 mt-5 mb-5">
           
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card">

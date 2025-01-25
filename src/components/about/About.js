@@ -4,8 +4,8 @@ export default function About() {
  
   return (
     <div>
-<h1 className='text-white' style={{backgroundColor:'#8C1515'}}>About Me</h1>
-<div id='ptexa' className='card text-center mt-5 mb-5 container shadow-sm border-dark mx-auto'>
+<h1 className='text-white pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>About Me</h1>
+<div id='ptexa' className='card text-center mt-5 mb-5 pt-5 pb-5 ps-5 pe-5 container shadow-sm border-dark mx-auto'>
 
 
 <p  

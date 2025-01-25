@@ -18,12 +18,11 @@ export default function Contact() {
     window.location.href = `tel:${number}`;
   };
   return (
-    <div id='ptex'>
+    <div >
       <div>
         {/* <h1 id="gh" className="container-fluid text-center py-4">MY NAME IS GYASUDDIN ALI</h1> */}
       </div>
-      <h1 className='text-white text-center' style={{backgroundColor:'#8C1515'}}>WELCOME TO MY PORTFOLIO</h1>
-
+      <h1 className='text-white text-center pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>WELCOME TO MY PORTFOLIO</h1>
       <div id="bg" className="card container shadow-dark mt-5 mb-5">
         <div className="row align-items-center">
           {/* Profile Image */}
@@ -51,7 +50,7 @@ export default function Contact() {
             <h5 className="text-center text-dark"><FaEnvelope></FaEnvelope>Email</h5>
             <p className="text-center text-dark"> <a href="mailto:gyasuddinali0786@gmail.com" className="text-dark">gyasuddinali0786@gmail.com</a></p>
            
-            <h5 className="text-dark"><FaHome></FaHome>Address</h5>
+            <h5 className="text-dark"><FaHome></FaHome>Home Town Address</h5>
             <pre className="text-bold text-dark">Siwan, Bihar</pre>
 
             <div className="text-center my-3">

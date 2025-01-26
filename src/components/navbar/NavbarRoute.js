@@ -23,7 +23,7 @@ export default function NavbarRoute() {
         <div className="container">
           
           <button
-            className="navbar-toggler mt-5 btn-white bg-white"
+            className="navbar-toggler mt-2 btn-white bg-white"
             type="button"
             aria-controls="navbarNav"
             aria-expanded={isNavOpen ? 'true' : 'false'}

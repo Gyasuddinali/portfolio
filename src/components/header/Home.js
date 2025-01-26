@@ -8,7 +8,7 @@ import { FaEnvelope, FaFacebook,FaLinkedin, FaGithub, FaHome, FaInstagram, FaPho
 export default function Contact() {
   const number = "+919199245536";
   //const whatsappNumber = "+1234567890";
-  const message = "Hello!";
+  const message = "Hello! Gyasuddin";
 
   const redirectToWhatsApp = () => {
     window.location.href = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
@@ -22,7 +22,7 @@ export default function Contact() {
       <div>
         {/* <h1 id="gh" className="container-fluid text-center py-4">MY NAME IS GYASUDDIN ALI</h1> */}
       </div>
-      <h1 className='text-white text-center pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>WELCOME TO MY PORTFOLIO</h1>
+      <h1 className='text-white text-center pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>WELCOME TO PORTFOLIO</h1>
       <div id="bg" className="card container shadow-dark mt-5 mb-5">
         <div className="row align-items-center">
           {/* Profile Image */}

@@ -28,7 +28,7 @@ Empolyee database using MERN Stack. The system allows administrators to perform 
 Update, Delete) operations on Empolyee records.
 Technologies: 
 </p>
-<a id='eh' className='text-primary btn bg-white w-25' href='https://empolyeemanagementsystem.vercel.app/'><FaGoogle></FaGoogle></a>
+<a id='eh' className='text-primary btn bg-white w-25' href='https://employeemanagefront.vercel.app/'><FaGoogle></FaGoogle></a>
   </div>
   
 </div>

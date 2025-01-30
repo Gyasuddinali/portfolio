@@ -51,11 +51,26 @@ room• and see information about payment and what thing available in hotel.
 
 <a id='hh' className='text-primary btn bg-white w-25' href='https://github.com/Gyasuddinali/hotelmanagement'><FaGithub></FaGithub></a>
   </div>
-  {/* <img src={hotel} className="card-img-bottom" alt="Hotel"/> */}
+
 </div>
 
 
 
+<h1 id='i2' className='text-center container mt-5'>3</h1>
+<div id='c1' className="card container bg-info">
+  <div className="card-body">
+    <h1 className="card-title text-dark">Project title:-instentRepaire Services</h1>
+    <h3 className='text-dark'>Technology Used</h3>
+    <h5 className='text-dark'>ReactJS, NodeJS, Express,MongoDB, BootStrap, CSS</h5>
+    <p className=" text-dark card-text"> 
+    instentRepaire Services is an online platform designed to connect users with reliable repair services. Whether it's fixing household appliances, electronics, or other equipment, our website helps you find skilled technicians in your area.
+    Schedule an appointment with just a few clicks. Select the service you need, and book works for you.
+</p>
+
+<a id='hh' className='text-primary btn bg-white w-25' href='https://acrepaire.vercel.app/'><FaGoogle></FaGoogle></a>
+  </div>
+
+</div>
     </div>
   )
 }

@@ -67,7 +67,7 @@ room• and see information about payment and what thing available in hotel.
     Schedule an appointment with just a few clicks. Select the service you need, and book works for you.
 </p>
 
-<a id='hh' className='text-primary btn bg-white w-25' href='https://acrepaire.vercel.app/'><FaGoogle></FaGoogle></a>
+<a id='hh' className='text-primary btn bg-white w-25' href='https://instentrepaire.vercel.app//'><FaGoogle></FaGoogle></a>
   </div>
 
 </div>

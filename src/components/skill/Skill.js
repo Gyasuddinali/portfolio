@@ -22,7 +22,7 @@ export default function Skill() {
   useEffect(() => {
   AOS.init({
     duration: 1000, // animation duration
-    once: true      
+    once:false      
   });
 }, []);
   return (

@@ -1,14 +1,37 @@
-#nv1{
-    
-    margin: 20px;
-    
-    position:absolute;
-    
-
+/* Make navbar fixed, styled, and smooth */
+#iii, .custom-navbar {
+  background-image: url('../image/bg.jpg');
+  color: aliceblue;
+padding: 5px 10px;
+  z-index: 1050;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
 }
-#iii{
-    color: aliceblue;
-    /* background-color: #08ebccce; */
-    /* background-image: url("../image/pexels-fwstudio-33348-129731.jpg"); */
 
+.nav-link {
+  margin-right: 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #33ff00 !important;
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+  background-image: url('../image/bg.jpg');
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
 }

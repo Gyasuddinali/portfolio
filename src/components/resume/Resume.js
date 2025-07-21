@@ -1,5 +1,5 @@
 import React from 'react'
-import gyasu from '../image/gyasu.pdf'
+import gyasu from '../image/gyasuddin.pdf'
 export default function Resuse() {
 
 

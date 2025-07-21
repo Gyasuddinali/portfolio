@@ -1,4 +1,4 @@
-#eh:hover{
+/* #eh:hover{
     background-color: rgb(255, 0, 0);
 }
 #hh:hover{
@@ -26,9 +26,110 @@ background-color: green;
     text-align: center;
     background-attachment: fixed;
   color: rgb(24, 16, 16);
-    /* background-image: url("../image/bg-pattern.jpg"); */
     background-image: url("../image/R.jpg");
     background-size: cover;
 
 
+} */
+
+
+
+/* project.css */
+.project-wrapper {
+  /* background: linear-gradient(135deg, #f9f9f9, #e3e3e3); */
+  
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.project-header {
+  background-color: #8C1515;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.project-index {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8C1515;
+  margin-bottom: 10px;
+}
+
+.project-content h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project-content h5 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.project-content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  background-color: #8C1515;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.project-link:hover {
+  background-color: #aa1e1e;
+  transform: scale(1.05);
+}
+
+/* Fade-in animation */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-card {
+    padding: 20px;
+  }
+
+  .project-link {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
 }

@@ -3,11 +3,12 @@ import gyasu from '../image/gyasuddin.pdf';
 import image1 from '../image/img.jpg';
 import React from 'react';
 import '../contact/contact.css';
+
 import { FaEnvelope, FaFacebook,FaLinkedin, FaGithub, FaHome, FaInstagram, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 export default function Contact() {
   const number = "+919199245536";
-  //const whatsappNumber = "+1234567890";
+  
   const message = "Hello! Gyasuddin";
 
   const redirectToWhatsApp = () => {
@@ -22,7 +23,7 @@ export default function Contact() {
       <div>
         {/* <h1 id="gh" className="container-fluid text-center py-4">MY NAME IS GYASUDDIN ALI</h1> */}
       </div>
-      <h1 className='text-white text-center pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>WELCOME TO PORTFOLIO</h1>
+      <h1 className='text-white text-center py-3 m-3' style={{backgroundColor:'#8C1515',height:'60px'}}>WELCOME TO PORTFOLIO</h1>
       <div id="bg" className="card container shadow-dark mt-5 mb-5">
         <div className="row align-items-center">
           {/* Profile Image */}
@@ -36,7 +37,7 @@ export default function Contact() {
             />
           </div>
 
-          {/* Text and Contact Info */}
+        
           <div className="col-12 col-md-8">
             <h2 id="move" className="text-center mt-5 text-dark">
             MY NAME IS GYASUDDIN ALI.

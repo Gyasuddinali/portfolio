@@ -1,7 +1,7 @@
 /* Make navbar fixed, styled, and smooth */
-#iii, .custom-navbar {
+/* #iii, .custom-navbar {
   background-image: url('../image/bg.jpg');
-  color: aliceblue;
+  color: rgb(76, 92, 107);
 padding: 5px 10px;
   z-index: 1050;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -34,4 +34,22 @@ padding: 5px 10px;
   .nav-link {
     margin: 10px 0;
   }
+} */
+
+
+
+
+#nv1{
+    
+    margin: 20px;
+    
+    position:absolute;
+    
+
+}
+#iii{
+    color: aliceblue;
+    /* background-color: #08ebccce; */
+    /* background-image: url("../image/pexels-fwstudio-33348-129731.jpg"); */
+
 }

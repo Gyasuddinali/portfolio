@@ -14,21 +14,14 @@ import java from '../image/java.jpg';
 import servlet from '../image/servlet.png';
 import springboot from '../image/spring.png';
 import '../skill/skill.css'
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 export default function Skill() {
-  useEffect(() => {
-  AOS.init({
-    duration: 1000, // animation duration
-    once:false      
-  });
-}, []);
+ 
   return (
     <div>
-      <h1 className=" text-white text-center py-3  m-3" style={{backgroundColor:'#8C1515',height:'60px'}}>My Skills</h1>
-      
+      {/* <h1 className=" text-white text-center py-3  m-3" style={{backgroundColor:'#8C1515',height:'60px'}}>My Skills</h1> */}
+            <h1 className=" text-white text-center pt-2" style={{backgroundColor:'#8C1515',height:'60px'}}>My Skills</h1>
+
       <div id='ptex' className="container card mt-5 mb-5">
         <div className="row justify-content-center mt-5 mb-5">
           

@@ -23,7 +23,7 @@ export default function Contact() {
       <div>
         {/* <h1 id="gh" className="container-fluid text-center py-4">MY NAME IS GYASUDDIN ALI</h1> */}
       </div>
-      <h1 className=' text-center py-3 m-3' style={{color:'#d4af37',backgroundColor:'#0b3d2e',height:'60px'}}>WELCOME TO PORTFOLIO</h1>
+      <h1 className=' text-center pt-2' style={{color:'#d4af37',backgroundColor:'#0b3d2e',height:'60px'}}>WELCOME TO PORTFOLIO</h1>
       <div id="bg" className="card container shadow-dark mt-5 mb-5">
         <div className="row align-items-center">
           {/* Profile Image */}

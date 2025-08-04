@@ -20,7 +20,7 @@ export default function Skill() {
   return (
     <div>
       {/* <h1 className=" text-white text-center py-3  m-3" style={{backgroundColor:'#8C1515',height:'60px'}}>My Skills</h1> */}
-            <h1 className=" text-white text-center pt-2" style={{backgroundColor:'#8C1515',height:'60px'}}>My Skills</h1>
+            <h1 className="text-center pt-2" style={{color:'#d4af37',backgroundColor:'#0b3d2e',height:'60px'}}>My Skills</h1>
 
       <div id='ptex' className="container card mt-5 mb-5">
         <div className="row justify-content-center mt-5 mb-5">

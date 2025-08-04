@@ -4,7 +4,7 @@ export default function About() {
  
   return (
     <div>
-      <h1 className='text-white pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>About Me</h1>
+      <h1 className=' pt-2' style={{color:'#d4af37',backgroundColor:'#0b3d2e',height:'60px'}}>About Me</h1>
 
 {/* <h1 className='text-white py-3 m-3' style={{backgroundColor:'#8C1515',height:'60px'}}>About Me</h1> */}
 <div id='ptexa' className='card text-center mt-5 mb-5 pt-5 pb-5 ps-5 pe-5 container shadow-sm border-dark mx-auto'>

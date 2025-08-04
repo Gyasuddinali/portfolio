@@ -146,7 +146,9 @@ export default function Project() {
 
   return (
     <div className="project-wrapper">
-      <h1 className="project-header">PROJECTS</h1>
+      {/* <h1 className="project-header">PROJECTS</h1> */}
+                  <h1 className="text-center pt-2" style={{color:'#d4af37',backgroundColor:'#0b3d2e',height:'60px'}}>PROJECTS</h1>
+
       {projects.map((proj, index) => (
         <div className="project-card fade-in-up" key={proj.id}>
           <h2 className="project-index">#{proj.id}</h2>

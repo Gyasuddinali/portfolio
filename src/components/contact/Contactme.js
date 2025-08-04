@@ -48,7 +48,7 @@ console.log(name);
 
   return (
     <div>
-            <h1 className='text-white text-center pt-2' style={{backgroundColor:'#8C1515',height:'60px'}}>Contact Me</h1>
+            <h1 className=' text-center pt-2' style={{color:'#d4af37',backgroundColor:'#0b3d2e',height:'60px'}}>Contact Me</h1>
 
       {/* <h1 className='text-white text-center py-3 m-3' style={{backgroundColor:'#8C1515',height:'60px'}}>Contact Me</h1> */}
       <div id="frm" className="card container mt-5 mb-5 pt-5 pb-5 ps-5 pe-5">

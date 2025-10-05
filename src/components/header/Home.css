@@ -1,0 +1,356 @@
+/* a:hover {
+  color: #0b3d2e !important;
+  transition: color 0.3s ease;
+}
+
+.card {
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #0b3d2e;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #093026;
+}
+
+.btn-success {
+  background-color: #25D366;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #1ebc57;
+}
+
+.btn-outline-dark:hover {
+  background-color: #0b3d2e;
+  color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Font (optional): include in index.html or via @import */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background-color: #0d1b2a;
+  font-family: 'Poppins', sans-serif;
+  color: #e0e1dd;
+}
+
+.contact-container {
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.title {
+  color: #fca311;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 2rem;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-img {
+  max-width: 220px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  border-color: #fca311;
+}
+
+.name-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e0e1dd;
+}
+
+.text-muted {
+  color: #c8c8c8 !important;
+}
+
+.btn-glass {
+  background: rgba(252, 163, 17, 0.15);
+  color: #fca311;
+  border: 1px solid #fca311;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-glass:hover {
+  background-color: #fca311;
+  color: #0d1b2a;
+  box-shadow: 0 0 10px #fca31190;
+}
+
+.contact-info p {
+  margin: 0.3rem 0;
+  color: #e0e1dd;
+}
+
+.contact-info a {
+  color: #e0e1dd;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #fca311;
+  text-decoration: underline;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  margin: 0 0.5rem;
+  color: #e0e1dd;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fca311;
+  transform: translateY(-4px);
+}
+
+.btn-resume {
+  background-color: #fca311;
+  color: #0d1b2a;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-resume:hover {
+  background-color: #ffd27f;
+  color: #0d1b2a;
+  box-shadow: 0 0 10px #fca31170;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: #0b3d2e;
+
+  font-family: 'Poppins', sans-serif;
+  color: #e0e1dd;
+}
+
+.contact-container {
+    background-color: #0b3d2e;
+
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+/* Header Banner */
+.hero-banner {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.hero-title {
+
+  background-color: #0b3d2e;
+  color: #d4af37;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0 px 0;
+  border-bottom: 3px solid #d4af37;
+  margin-bottom: 0px;
+  user-select: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.hero-title span {
+  background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glass Card */
+.glass-card {
+  background: #143e33;
+
+  border-radius: 20px;
+  padding: 2rem;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Profile Image */
+.profile-img {
+  max-width: 220px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  border-color: #fca311;
+}
+
+/* Buttons */
+.btn-glass {
+  background: rgba(252, 163, 17, 0.15);
+  color: #fca311;
+  border: 1px solid #fca311;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-glass:hover {
+  background-color: #fca311;
+  color: #0d1b2a;
+  box-shadow: 0 0 10px #fca31190;
+}
+
+.btn-resume {
+  background-color: #fca311;
+  color: #0d1b2a;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-resume:hover {
+  background-color: #ffd27f;
+  color: #0d1b2a;
+  box-shadow: 0 0 10px #fca31170;
+}
+
+/* Info Text */
+.name-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e0e1dd;
+}
+
+.text-muted {
+  color: #c8c8c8 !important;
+}
+
+.contact-info p {
+  margin: 0.3rem 0;
+  color: #e0e1dd;
+}
+
+.contact-info a {
+  color: #e0e1dd;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #fca311;
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons a {
+  font-size: 1.8rem;
+  margin: 0 0.5rem;
+  color: #e0e1dd;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fca311;
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 25px 20px;
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+}

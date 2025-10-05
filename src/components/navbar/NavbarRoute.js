@@ -74,11 +74,11 @@ export default function NavbarRoute() {
   };
 
   return (
-    <div>
+    <div  className="container-fluid" style={{backgroundColor:' #0b3d2e'}}>
       <nav className="navbar navbar-expand-lg" id="iii">
         <div className="container">
           <Link className="navbar-brand fw-bold" to="/" style={{color:'#d4af37'}}>
-          MyPortfolio
+          MY PORTFOLIO
          </Link>
           <button
             className="navbar-toggler mt-2 btn-white bg-white"

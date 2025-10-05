@@ -3,8 +3,10 @@ import React from 'react';
 import { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import '../contact/contact.css'
 const Contactme = () => {
 
+  
   const [name,setName]=useState({
     //id:"",
     name:"",
@@ -45,23 +47,51 @@ const buttonhnd=async(e1)=>{
   
 console.log(name);
 }
+ return (
+    <div className="contact-wrapper">
+      <h1 className="contact-header">Contact Me</h1>
 
-  return (
-    <div>
-            <h1 className=' text-center pt-2' style={{color:'#d4af37',backgroundColor:'#0b3d2e',height:'60px'}}>Contact Me</h1>
+      <div className="contact-card container shadow-sm">
+        <form className="contact-form" onSubmit={buttonhnd} noValidate>
+          <input
+            type="text"
+            placeholder="Your Name"
+            required
+            name="name"
+            value={name.name}
+            onChange={inpcng}
+            className="contact-input"
+          />
 
-      {/* <h1 className='text-white text-center py-3 m-3' style={{backgroundColor:'#8C1515',height:'60px'}}>Contact Me</h1> */}
-      <div id="frm" className="card container mt-5 mb-5 pt-5 pb-5 ps-5 pe-5">
-      <form className='container ps-5 pe-5 card pt-5 pb-5 align-center ' onSubmit={buttonhnd}>
-        <input type="text" placeholder="Your Name" required name='name' value={name.name} onChange={inpcng}/><br></br>
-        <input type="email" placeholder="Your Email" required name='email' p value={name.email} onChange={inpcng}/><br></br>
-        <textarea placeholder="Your Message" required name='message'  value={name.message} onChange={inpcng} ></textarea><br></br>
-        <button className="btn bg-primary text-white" type="submit">Send</button>
-      </form>
+          <input
+            type="email"
+            placeholder="Your Email"
+            required
+            name="email"
+            value={name.email}
+            onChange={inpcng}
+            className="contact-input"
+          />
+
+          <textarea
+            placeholder="Your Message"
+            required
+            name="message"
+            value={name.message}
+            onChange={inpcng}
+            className="contact-textarea"
+            rows={5}
+          />
+
+          <button type="submit" className="contact-btn">
+            Send
+          </button>
+        </form>
       </div>
-      <ToastContainer/>
+
+      <ToastContainer />
     </div>
   );
-};
-
+}
 export default Contactme;
+

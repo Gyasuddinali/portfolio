@@ -1,14 +1,61 @@
-#ptexa{
-
-    text-align: center;
-    background-attachment: fixed;
-  color: white;
-    /* background-image: url("../image/bg-pattern.jpg"); */
-    background-image: url("../image/R.jpg");
-    background-size: cover;
-    
-
+.about-container {
+  background-color: #0b3d2e;
+  min-height: 90vh;
+  padding: 0;
+  margin: 0;
 }
 
+.about-header {
+   background-color: #0b3d2e;
+  color: #d4af37;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 15px 0;
+  border-bottom: 3px solid #d4af37;
+  margin-bottom: 40px;
+  user-select: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.about-header h1 {
+  color: #d4af37;
+  font-weight: 700;
+  font-size: 2.8rem;
+  user-select: none;
+}
+
+.about-card {
+  background-color: #143e33;
+  max-width: 900px;
+  margin: 0 auto 80px;
+  padding: 40px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  color: #f0e6c8;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-weight: 500;
+  text-align: justify;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(212, 175, 55, 0.7);
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    padding: 25px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+}
 
 
